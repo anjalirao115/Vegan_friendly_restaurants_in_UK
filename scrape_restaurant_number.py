@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Extracting list of dictionaries from json file
-with open("city_link.json", "r") as file:
+with open("data/city_link.json", "r") as file:
     list_of_dict = json.load(file)
 
 updated_list_of_dict = []  #another key value pair for vegan restaurant will be added to these dictionaries
@@ -42,7 +42,7 @@ for idx, dict in enumerate(list_of_dict):
 # writing the dictionary data as csv file
 csv_columns = ['city','vegan_restaurant','link']
 
-csv_file = "city_vegan_restaurant_data.csv"
+csv_file = "data/city_vegan_restaurant_data.csv"
 
 with open(csv_file, 'w') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
