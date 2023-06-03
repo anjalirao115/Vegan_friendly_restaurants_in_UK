@@ -60,6 +60,6 @@ if __name__ == '__main__':
     list_of_dict = collect_all_links(restaurant_list)
     
     # writing the list of dictionary to a json file
-    target_file = "city_link.json"
+    target_file = "data/city_link.json"
     with open(target_file, 'w') as fp:
         json.dump(list_of_dict, fp)
