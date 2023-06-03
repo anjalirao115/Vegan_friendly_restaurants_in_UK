@@ -34,5 +34,5 @@ The data file output.csv is loaded in Tableau Desktop and four different workshe
 
 ## Conclusion:
 
-It is found that the maximum number of vegan friendly restaurants are present in London, however it is the city with the highest population as well. When the population in the cities is also considered, Brighton tops the list to offer the maximum vegan friendly restaurants per capita. The other cities closely following Brighton are York, Edinburgh and Newcastle. Bradford in the city which offers minimum number of vegan friendly restaurants per capita.
+It is found that the maximum number of vegan friendly restaurants are present in London, however it is the city with the highest population as well. When the population in the cities is also considered, Brighton tops the list to offer the maximum vegan friendly restaurants per capita. The other cities following Brighton are York, Edinburgh and Newcastle. Bradford in the city which offers the minimum number of vegan friendly restaurants per capita.
 
